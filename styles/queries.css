@@ -1,0 +1,159 @@
+@media all and (min-width:940px){
+
+*{
+  font-size: 16px;
+}
+  .main-nav{
+    width:100%;
+    position: static;
+  }
+  .main-nav-btn{
+    display: none;
+  }
+  .main-menu{
+      position: static;
+      box-sizing: border-box;
+      min-height: 70px;
+      width:100%;
+      display: flex;
+      flex-flow: row;
+      justify-content: center;
+      align-items: center;
+      transform:translateY(0%);
+  }
+  .main-menu li {
+    margin:0.5rem 1rem;
+  }
+  .main-menu a:hover{
+    font-size: 1rem;
+  }
+  .logo{
+    padding: 2rem 1rem;
+  }
+  .logo-text{
+    margin:0 auto;
+  }
+  .offer{
+    padding:3rem;
+    box-sizing: border-box;
+  }
+  .offer-box{
+    width: 100%;
+    display: flex;
+    flex-direction:row;
+    align-items: center;
+    align-content: center;
+    justify-content: space-around;
+    margin: 0 auto;
+  }
+  .offer-photo-container{
+    order:2;
+    width:40%;
+    border: none;
+    height: auto;
+    text-align: center;
+  }
+  .offer-photo-container::before,
+  .offer-photo-container::after{
+    display: none;
+  }
+  .offer-img{
+    width:65%;
+    border-radius: 100%;
+  }
+  .offer-info-container {
+    order:1;
+    width: 30%;
+    box-sizing: border-box;
+    padding:1rem;
+    text-align: left;
+  }
+  .offer-info{
+    font-size: 1.3rem;
+  }
+  .conveniances{
+    order: 3;
+    width: 30%;
+  }
+  .conveniances-title{
+    text-align: left;
+  }
+  /*ul.conveniances-list{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    align-content: space-around;
+  }
+  li.conveniances-li{
+    width:30%;
+    text-align:
+  }*/
+  .people {
+    font-size: 1.4rem;
+  }
+  .price-list{
+    overflow-x: hidden;
+  }
+  .price{
+    font-size:4rem;
+  }
+  .gallery-photos{
+    margin: 1em auto;
+    width:100%;
+    display: block;
+    overflow: hidden;
+    max-height:400px ;
+  }
+  .gallery-photos-more{
+    max-height:none;
+  }
+  img.thumbnail{
+    width:25%;
+    display: inline-block;
+    margin: 0.5rem;
+  }
+  .neighborhood{
+  width:70%;
+  margin: 0 auto;
+  }
+  .neighborhood-description{
+    display: flex;
+    flex-direction: row;
+  }
+  .neighborhood-description-reverse{
+    flex-direction: row-reverse;
+  }
+  .review-text{
+    width: 30%;
+    padding: 1rem 2rem;
+  }
+  .owl-carousel .owl-item{
+    cursor: move;
+  }
+  .map-box{
+    display: block;
+    width:50%;
+  }
+  .mymap{
+    display: block;
+    width:100%;
+    height: 99.9%;
+    border: 0;
+  }
+  .contact-container{
+    display:flex;
+    flex-direction: row-reverse;
+  }
+  .contact-info{
+    width:50%;
+    padding-top: 2rem;
+  }
+  p.info{
+    padding:0 3rem;
+  }
+  .contact-to-owner{
+    overflow-x: hidden;
+  }
+}
