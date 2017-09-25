@@ -7,12 +7,19 @@
     width:100%;
     position: static;
   }
+  .main-nav-sticky{
+    position: fixed;
+    top: 0;
+    left: 0;
+    background: rgba(0,0,0, 0.8);
+  }
   .main-nav-btn{
     display: none;
   }
   .main-menu{
       position: static;
       box-sizing: border-box;
+      background: none;
       min-height: 70px;
       width:100%;
       display: flex;
