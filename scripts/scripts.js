@@ -15,10 +15,11 @@
         }
     });
 
-    $('.more').click(function(){
+    $('.more-btn').click(function(){
       $('.gallery-photos').addClass('gallery-photos-more');
+      $('.more-btn').css("display", "none");
     });
-
+    //
     //owl carousel configuration
       $('.owl-carousel').owlCarousel({
           loop:true,
@@ -35,7 +36,6 @@
           }
       });
 
-
   //light slide
   $('a[href*="#"]:not([href="#"])').on('click', function(event) {
 
@@ -44,7 +44,7 @@
     if( target.length ) {
         event.preventDefault();
         $('html, body').stop().animate({
-            scrollTop: target.offset().top
+            scrollTop: target.offset().top-70
         }, 600);
     }
   });
@@ -122,6 +122,5 @@
   waypoint_karnity();
   waypoint_murawki();
   waypoint_contact();
-
 
 });
