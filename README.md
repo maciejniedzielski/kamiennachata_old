@@ -1,4 +1,4 @@
 # KamiennaChata
-Just another website in internet.
+Just another website on the internet.
 [Live demo](https://introoz37.github.io/kamiennachata)
 
